@@ -39,6 +39,7 @@ function setupNodeEvents(on, config) {
 module.exports = defineConfig({
   e2e: {
     baseUrl: 'http://216.10.245.166',
+    experimentalStudio: true,
     setupNodeEvents
   },
 });
